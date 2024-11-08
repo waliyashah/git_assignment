@@ -18,7 +18,6 @@ def main():
         print(f"\nYou selected: {user_choice}")
         print(f"Computer selected: {computer_choice}")
 
-
         if (user_choice == "rock" and computer_choice == "scissors") or \
              (user_choice == "scissors" and computer_choice == "paper") or \
              (user_choice == "paper" and computer_choice == "rock"):

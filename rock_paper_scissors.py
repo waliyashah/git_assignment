@@ -18,9 +18,8 @@ def main():
         print(f"\nYou selected: {user_choice}")
         print(f"Computer selected: {computer_choice}")
 
-        if user_choice == computer_choice:
-            print("It's a tie! Let's play again.\n")
-        elif (user_choice == "rock" and computer_choice == "scissors") or \
+
+        if (user_choice == "rock" and computer_choice == "scissors") or \
              (user_choice == "scissors" and computer_choice == "paper") or \
              (user_choice == "paper" and computer_choice == "rock"):
             print("You win!")
